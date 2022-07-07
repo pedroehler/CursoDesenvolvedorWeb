@@ -9,47 +9,110 @@
     <!-- Formulário -->
     <form method="POST" action="form.php">
         <div class="form-group">
-            <label for="nome">Nome</label>
-            <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite o seu nome" required>
+            <label for="nome" class="form-label">Nome:</label>
+            <input type="text" name="nome" id="nome" class="form-text" placeholder="Digite o seu nome" required autofocus tabindex="1">
         </div>
         <div class="form-group">
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email" class="form-control" placeholder="seu@email.com" required>
+            <label for="email" class="form-label">E-mail:</label>
+            <input type="email" name="email" id="email" class="form-text" placeholder="seu@email.com" required tabindex="2" disabled>
         </div>
         <div class="form-group">
-            <label for="dtNascimento">Data de Nascimento</label>
-            <input type="date" name="dtNascimento" id="dtNascimento" class="form-control" placeholder="DD/MM/AAAA" required min="2022-07-07" max="2022-07-17">
+            <label for="dtNascimento" class="form-label">Data de Nascimento:</label>
+            <input type="date" name="dtNascimento" id="dtNascimento" class="form-text" placeholder="DD/MM/AAAA" required min="2022-01-01" max="2022-12-31" tabindex="3">
         </div>
         <div class="form-group">
-            <label>Sexo</label>
-            <input type="radio" name="sexo" id="masculino">
-            <label for="masculino">Masculino</label>
+            <label class="form-label">Sexo: </label>
+            <input type="radio" name="sexo" id="masculino" tabindex="4">
+            <label for="masculino" class="form-label">Masculino</label>
             <input type="radio" name="sexo" id="feminino">
-            <label for="feminino">Feminino</label>
+            <label for="feminino" class="form-label">Feminino</label>
         </div>
         <div class="form-group">
-            <label for="contrato">Li e aceito o contrato</label>
-            <input type="checkbox" id="contrato" name="contrato" required checked>
+            <label for="contrato" class="form-label">Li e aceito o contrato</label>
+            <input type="checkbox" id="contrato" name="contrato" required checked tabindex="5">
         </div>
         <div class="form-group">
-            <label for="volume">Volume</label>
-            <input type="range" name="volume" id="volume" min="0" max="100" value="25">
+            <label for="volume" class="form-label">Volume</label>
+            <input type="range" name="volume" id="volume" min="0" max="100" value="25" class="form-range">
         </div>
         <div class="form-group">
-            <label for="meter">Bateria</label>
+            <label for="meter" class="form-label">Bateria</label>
             <meter min="0" max="100" low="16" value="15">15</meter>
         </div>
         <div class="form-group">
-            <label for="carregando">Carregando</label>
-            <progress min="0" max="100" value="60">60%</progress>
+            <label for="carregando" class="form-label">Carregando</label>
+            <progress min="0" max="100" value="60" class="progress progress-bar">60%</progress>
         </div>
         <div class="form-group">
-            <label for="ano">Ano de Fabricação</label>
-            <input type="number" name="ano" id="ano" min="2000" max="2028" value="2022" step="2" class="form-control">
+            <label for="ano" class="form-label">Ano de Fabricação</label>
+            <input type="number" name="ano" id="ano" min="2000" max="2028" value="2022" step="2" class="form-text" readonly>
         </div>
         <div class="form-group">
-            <label for="cor">Cor</label>
-            <input type="color" name="cor" id="cor">
+            <label for="cor" class="form-label">Cor</label>
+            <input type="color" name="cor" id="cor" class="form-control-color">
+        </div>
+        <div class="form-group">
+            <label for="url" class="form-label">URL</label>
+            <input type="url" name="url" id="url" class="form-text">
+        </div>
+        <div class="form-group">
+            <label for="pesquisa" class="form-label">Pesquisa</label>
+            <input type="search" name="pesquisa" id="pesquisa" placeholder="Digite aqui sua pesquisa" class="form-text">
+        </div>
+        <div class="form-group">
+            <label for="texto" class="form-label">Texto</label>
+            <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Digite seu texto aqui..." class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="estados" class="form-label">Estados</label>
+            <select name="estados" id="estados" class="form-select" multiple size="4">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG" selected>Minas Gerais</option>
+                <option value="ES">Espirito Santo</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="estados" class="form-label">Estados</label>
+            <select name="estados" id="estados" class="form-select" multiple size="4">
+                <optgroup label="Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG" selected>Minas Gerais</option>
+                    <option value="ES">Espirito Santo</option>
+                </optgroup>
+                <optgroup label="Sul">
+                    <option value="PR">Paraná</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </optgroup>
+            </select>
+        </div>
+        <input type="hidden" name="id" id="id" value="1">
+        <div class="form-group">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha">
+        </div>
+        <div class="form-group">
+            <label for="mes">Mês</label>
+            <input type="month" name="mes" id="mes">
+        </div>
+        <div class="form-group">
+            <label for="semana">Semana</label>
+            <input type="week" name="semana" id="semana">
+        </div>
+        <div class="form-group">
+            <label for="tempo">Tempo</label>
+            <input type="time" name="tempo" id="tempo">
+        </div>
+        <div class="form-group">
+            <input type="text" list="navegadores">
+            <datalist id="navegadores">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Safari">
+                <option value="Edge">
+            </datalist>
         </div>
         <div class="form-group">
             <button type="submit" class="btn btn-primary">Cadastrar</button>
