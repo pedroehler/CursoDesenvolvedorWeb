@@ -7,14 +7,54 @@
 </head>
 <body>
     <!-- Formulário -->
-    <form>
-        <div>
+    <form method="POST" action="form.php">
+        <div class="form-group">
             <label for="nome">Nome</label>
-            <input type="text" name="Nome" id="nome" class="form-control" required placeholder="Digite o seu nome">
+            <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite o seu nome" required>
+        </div>
+        <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="seu@email.com" required>
+        </div>
+        <div class="form-group">
+            <label for="dtNascimento">Data de Nascimento</label>
+            <input type="date" name="dtNascimento" id="dtNascimento" class="form-control" placeholder="DD/MM/AAAA" required min="2022-07-07" max="2022-07-17">
+        </div>
+        <div class="form-group">
+            <label>Sexo</label>
+            <input type="radio" name="sexo" id="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="sexo" id="feminino">
+            <label for="feminino">Feminino</label>
+        </div>
+        <div class="form-group">
+            <label for="contrato">Li e aceito o contrato</label>
+            <input type="checkbox" id="contrato" name="contrato" required checked>
+        </div>
+        <div class="form-group">
+            <label for="volume">Volume</label>
+            <input type="range" name="volume" id="volume" min="0" max="100" value="25">
+        </div>
+        <div class="form-group">
+            <label for="meter">Bateria</label>
+            <meter min="0" max="100" low="16" value="15">15</meter>
+        </div>
+        <div class="form-group">
+            <label for="carregando">Carregando</label>
+            <progress min="0" max="100" value="60">60%</progress>
+        </div>
+        <div class="form-group">
+            <label for="ano">Ano de Fabricação</label>
+            <input type="number" name="ano" id="ano" min="2000" max="2028" value="2022" step="2" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="cor">Cor</label>
+            <input type="color" name="cor" id="cor">
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
         </div>
     </form>
-    
-    <input type="text">
 
     <!-- JavaScript -->
 	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
