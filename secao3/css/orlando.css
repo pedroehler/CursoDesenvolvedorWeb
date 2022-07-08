@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans-Regular.ttf');
+    font-size: 1em;
+}
+
 header {
     width: 100%;
     height: 150px;
@@ -75,39 +81,39 @@ header .header-black li.club-13 {
 }
 
 header .header-black li.club-14 {
-    background-position: -624px 0px;
+    background-position: -626px 0px;
 }
 
 header .header-black li.club-15 {
-    background-position: -672px 0px;
+    background-position: -670px 0px;
 }
 
 header .header-black li.club-16 {
-    background-position: -720px 0px;
+    background-position: -716px 0px;
 }
 
 header .header-black li.club-17 {
-    background-position: -768px 0px;
+    background-position: -760px 0px;
 }
 
 header .header-black li.club-18 {
-    background-position: -816px 0px;
+    background-position: -808px 0px;
 }
 
 header .header-black li.club-19 {
-    background-position: -864px 0px;
+    background-position: -856px 0px;
 }
 
 header .header-black li.club-20 {
-    background-position: -912px 0px;
+    background-position: -904px 0px;
 }
 
 header .header-black li.club-21 {
-    background-position: -960px 0px;
+    background-position: -948px 0px;
 }
 
 header .header-black li.club-22 {
-    background-position: -1008px 0px;
+    background-position: -999px 0px;
 }
 
 
@@ -119,5 +125,24 @@ header .header-black li a {
 
 header #logotipo {
     position: absolute;
-    top: -20px;
+    top: 20px;
+}
+
+#menu {
+    margin: 26px 0;
+}
+
+#menu li {
+    display: inline-block;
+    font-family: 'OpenSans';
+}
+
+#menu li.search input ::-webkit-input-placeholder{
+    color: #FFF;
+}
+
+#menu li a {
+    color: #FFF;
+    font-size: 16px;
+    padding: 10px 25px;
 }
