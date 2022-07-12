@@ -5,7 +5,7 @@
 	[x] criar pasta para os estilos css
 	[x] criar pasta para os scripts javascript
 [] Definir estrutura do site
-	[] Elementos utilizados
+	[] Documento HTML
 		[x] doctype
 		[] html
 			[x] head
@@ -20,25 +20,29 @@
 					[x] logotipo
 						div > img
 					[x] menu de times
-						div > div > ul > li > a
+						div > ul > li > a
 					[x] menu do site
-						div > div > nav > ul > li > a
+						div > nav > ul > li > a
 					[x] pesquisa
-						div > div > nav > ul > li > div > input > span > button > i
-				[] section
-					[] banner
-					[] news
-					[] estatísticas
-					[] call to action
+						div > nav > ul > li > input > span > button > i
+				[x] section
+					[x] banner
+						div > h1 > small
+					[x] news
+						div > hw > hr > img > h3 > time
+					[x] estatísticas
+						div p > small
+					[x] call to action
+						div > h2 > hr
 				[] footer
-					[] logotipo
-					[] popular posts
-					[] links
-					[] get in touch
+					[x] logotipo
+					[x] popular posts
+					[x] links
+					[x] get in touch
 					[] copyright e created by
-	[] análise da imagem do site com Photoshop
+				[] scripts
+	[] CSS
+		[] análise da imagem do site com Photoshop
 		[] Definir posicionamento dos elementos
 		[] Definir tamanho dos elementos
 		[] Definir cores dos elementos
-[] Criar index.html
-[] criar index.css
