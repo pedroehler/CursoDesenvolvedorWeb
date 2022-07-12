@@ -1,6 +1,12 @@
-[] Organizar Assets (bootstrap, jQuery, imagens, fontes)
+[x] Organizar Assets (bootstrap, jQuery, imagens, fontes)
+	[x] criar pasta para as libs bootstrap e jQuery
+	[x] criar pasta para as imagens
+	[x] criar pasta para as fontes
+	[x] criar pasta para os estilos css
+	[x] criar pasta para os scripts javascript
 [] Definir estrutura do site
 	[] Definir elementos a serem utilizados
+		
 	[] Definir posicionamento dos elementos
 	[] Definir tamanho dos elementos
 	[] Definir cores dos elementos
