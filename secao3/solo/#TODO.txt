@@ -4,10 +4,10 @@
 	[x] criar pasta para as fontes
 	[x] criar pasta para os estilos css
 	[x] criar pasta para os scripts javascript
-[] Definir estrutura do site
-	[] Documento HTML
+[x] Criar site
+	[x] Estruturar Documento HTML
 		[x] doctype
-		[] html
+		[x] html
 			[x] head
 				[x] meta charset utf-8
 				[x] title
@@ -15,7 +15,7 @@
 					[x] bootstrap
 					[x] font-awesome "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
 					[x] css
-			[] body
+			[x] body
 				[x] header
 					[x] logotipo
 						div > img
@@ -34,15 +34,17 @@
 						div p > small
 					[x] call to action
 						div > h2 > hr
-				[] footer
+				[x] footer
 					[x] logotipo
 					[x] popular posts
 					[x] links
 					[x] get in touch
-					[] copyright e created by
-				[] scripts
-	[] CSS
-		[] análise da imagem do site com Photoshop
-		[] Definir posicionamento dos elementos
-		[] Definir tamanho dos elementos
-		[] Definir cores dos elementos
+					[x] copyright e created by
+				[x] scripts
+					[x] bootstrap js
+					[x] jQuery
+	[x] Configurar o CSS
+		[x] análise da imagem do site com Photoshop
+		[x] Definir posicionamento dos elementos
+		[x] Definir tamanho dos elementos
+		[x] Definir cores dos elementos
