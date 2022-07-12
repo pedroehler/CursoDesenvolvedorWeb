@@ -6,6 +6,7 @@
 	[x] criar pasta para os scripts javascript
 [] Definir estrutura do site
 	[] Definir elementos a serem utilizados
+		[] doctype
 		[] html
 			[] head
 				[] meta charset utf-8
