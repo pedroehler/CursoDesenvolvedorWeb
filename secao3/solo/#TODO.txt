@@ -5,21 +5,26 @@
 	[x] criar pasta para os estilos css
 	[x] criar pasta para os scripts javascript
 [] Definir estrutura do site
-	[] Definir elementos a serem utilizados
-		[] doctype
+	[] Elementos utilizados
+		[x] doctype
 		[] html
-			[] head
-				[] meta charset utf-8
-				[] title
-				[] links
-					[] bootstrap
-					[] font-awesome
-					[] css
+			[x] head
+				[x] meta charset utf-8
+				[x] title
+				[x] links
+					[x] bootstrap
+					[x] font-awesome "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+					[x] css
 			[] body
-				[] header
-					[] logotipo
-					[] menu de times
-					[] menu do site e pesquisa
+				[x] header
+					[x] logotipo
+						div > img
+					[x] menu de times
+						div > div > ul > li > a
+					[x] menu do site
+						div > div > nav > ul > li > a
+					[x] pesquisa
+						div > div > nav > ul > li > div > input > span > button > i
 				[] section
 					[] banner
 					[] news
