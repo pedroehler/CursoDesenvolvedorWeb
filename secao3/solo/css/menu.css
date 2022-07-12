@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url("../font/OpenSans-Regular.ttf");
+    font-size: 1em;
+}
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("../font/OpenSans-Light.ttf");
+    font-size: 1em;
+}
+
+
+#menu {
+    margin: 12px 0;
+}
+#menu li {
+    display: inline-block;
+    font-family: "OpenSans";
+}
+#menu li a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+/* campo de pesquisa */
+#menu li.search {
+    width: 182px;
+}
+#menu li.search .input-group {
+    top: 8px;
+}
+#menu li.search input {
+    background-color: #5C2D90;
+    color: #fff;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 8px;
+}
+#menu li.search ::-webkit-input-placeholder {
+    color: #fff;
+}
+
+/* botão de pesquisa */
+#menu li.search button i {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}

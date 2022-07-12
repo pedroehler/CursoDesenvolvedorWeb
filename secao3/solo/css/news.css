@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url("../font/OpenSans-Regular.ttf");
+    font-size: 1em;
+}
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("../font/OpenSans-Light.ttf");
+    font-size: 1em;
+}
+#news {
+	position: relative;
+    top: -110px;
+}
+#news h2 {
+	color:#5E2799;
+	font-family: 'OpenSans-Light';
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+}
+#news hr {
+	border:#FDE192 solid 8px;
+	width: 200px;
+	margin: 0 auto;
+}
+#news .thumbnails {
+	margin-top: 20px;
+}
+#news .thumbnails h3 {
+	color: #5E299A;
+	font-size: 18px;
+	font-family: 'OpenSans';
+	font-weight: bold;
+	margin-bottom: 0;
+}
+#news .thumbnails time {
+	color:#A7A7A7;
+	font-size: 18px;
+	font-family: 'OpenSans';
+}

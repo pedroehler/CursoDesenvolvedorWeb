@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url("../font/OpenSans-Regular.ttf");
+    font-size: 1em;
+}
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("../font/OpenSans-Light.ttf");
+    font-size: 1em;
+}
+
+body, html {
+    height: 100%;
+}
+
+#banner {
+    background-image: url("../img/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 728px;
+    top: -130px;
+}
+#banner h1 {
+	color: #fff;
+	top: 300px;
+	position: relative;
+	font-size: 92px;
+	text-shadow:2px 2px 2px rgba(0, 0, 0, .45);
+	font-family: 'OpenSans-Light';
+	margin-left: 50px;
+}
+#banner h1 small {
+	font-size: 32px;
+	display: block;
+	color: #FFF;
+	font-family: 'OpenSans';
+	font-weight: bold;
+}
