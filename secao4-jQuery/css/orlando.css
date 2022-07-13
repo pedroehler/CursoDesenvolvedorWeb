@@ -154,6 +154,7 @@ header #logotipo {
 	top: -130px;
 }
 #banner h1 {
+	transition: 1s;
 	color: #fff;
 	top: 300px;
 	position: relative;
@@ -368,8 +369,7 @@ footer .list-socials i {
 	margin: 7px auto;
 }
 
-header #logotipo.efeito {
+#banner h1.efeito-in {
 	color: red;
 	font-size: 12em;
-	transition: 1s;
 }
