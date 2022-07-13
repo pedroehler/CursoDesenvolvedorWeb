@@ -278,11 +278,14 @@
 		<script>
 			$(document).ready(() => {
 				$("#logotipo").on("mouseover", function(){
-					console.log("Passou o mouse no logotipo.");
-					console.log("A cor do título do banner foi alterada de ");
-					let documentoHtml = $(document)[0];
-					console.log(documentoHtml);
-					$("#banner h1").css("color", "red");
+					console.log("#logotipo mouseover");
+					$("#banner h1").addClass("efeito");
+					// let documentoHtml = $(document)[0];
+					// console.log(documentoHtml);
+					// $("#banner h1").css({"color":"red", "font-size":"12em", "transition":"1s"});
+				}).on("mouseout", function(){
+					console.log("#logotipo mouseout");
+					$("#banner h1").removeClass("efeito");
 				});
 			});
 		</script>

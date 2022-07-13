@@ -367,3 +367,9 @@ footer .list-socials i {
 	font-size: 16px;
 	margin: 7px auto;
 }
+
+header #logotipo.efeito {
+	color: red;
+	font-size: 12em;
+	transition: 1s;
+}
