@@ -18,6 +18,11 @@ header {
 header .container {
 	position: relative;
 }
+header #logotipo {
+	position: absolute;
+	top: 20px;
+	z-index: 3;
+}
 header .header-black {
 	background-color: #000;
 	height: 40px;
@@ -27,6 +32,11 @@ header .header-black li {
 	background-repeat: no-repeat;
 	display: inline-block;
 	margin: 4px;
+}
+header .header-black li a {
+	width: 32px;
+	height: 32px;
+	display: block;
 }
 header .header-black li.club-01 {
 	background-position: 0px 0px;
@@ -94,16 +104,6 @@ header .header-black li.club-21 {
 header .header-black li.club-22 {
 	background-position: -1000px 0px;
 }
-header .header-black li a {
-	width: 32px;
-	height: 32px;
-	display: block;
-}
-header #logotipo {
-	position: absolute;
-	top: 20px;
-	z-index: 3;
-}
 #menu {
 	margin: 12px 0;
 }
@@ -117,12 +117,6 @@ header #logotipo {
 	transition-duration: 1s;
 	width: 182px;
 }
-#menu li.search.ativo {
-	width: 300px;
-}
-#menu li.search.ativo input {
-	width: 300px;
-}
 #menu li.search input {
 	background-color: #5C2D90;
 	color: #fff;
@@ -130,6 +124,12 @@ header #logotipo {
 	height: 30px;
 	line-height: 30px;
 	padding-left: 8px;
+}
+#menu li.search.ativo {
+	width: 300px;
+}
+#menu li.search.ativo input {
+	width: 300px;
 }
 #menu li.search ::-webkit-input-placeholder {
 	color: #fff;	
@@ -178,6 +178,10 @@ header #logotipo {
 	color: #FFF;
 	font-family: 'OpenSans';
 	font-weight: bold;
+}
+#banner h1.efeito-in {
+	color: red;
+	font-size: 12em;
 }
 #news {
 	position: relative;
@@ -349,7 +353,6 @@ footer .col-get-in-touch i {
 	color: #9B9B9B;
 	font-size: 20px;
 	margin: 0 6px;
-
 }
 footer .col-get-in-touch a {
 	color: #666;
@@ -376,9 +379,4 @@ footer .list-socials a {
 footer .list-socials i {
 	font-size: 16px;
 	margin: 7px auto;
-}
-
-#banner h1.efeito-in {
-	color: red;
-	font-size: 12em;
 }
