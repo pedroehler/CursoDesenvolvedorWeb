@@ -112,7 +112,16 @@ header #logotipo {
 	font-family: "OpenSans";
 }
 #menu li.search {
+	/* transition-timing-function: cubic-bezier(1, -0.91, 0.91, 1); */
+	transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+	transition-duration: 1s;
 	width: 182px;
+}
+#menu li.search.ativo {
+	width: 300px;
+}
+#menu li.search.ativo input {
+	width: 300px;
 }
 #menu li.search input {
 	background-color: #5C2D90;
