@@ -389,3 +389,7 @@ footer .list-socials i {
 #call-to-action div.row {
 	margin: 12px 0px 0px 0px;
 }
+video {
+	width: 60%;
+	margin: 0px auto;
+}
