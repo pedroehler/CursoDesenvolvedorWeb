@@ -108,5 +108,26 @@
     }
     footer {
         margin-top: 60px;
+        position: relative;
+    }
+    .copyright-mobile p {
+        font-size: 10px;
+        line-height: 0;
+    }
+    .copyright-mobile .pull-left {
+        float: inherit;
+    }
+    footer .row p {
+        line-height: 20px;
+        text-align: center;
+    }
+    footer .row p:first-child {
+        margin-top: 5px;
+    }
+    footer .text-roxo {
+        margin-right: 20px;
+    }
+    footer .row {
+        margin: 0;
     }
 }
