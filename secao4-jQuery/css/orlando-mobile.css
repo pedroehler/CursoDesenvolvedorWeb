@@ -1,0 +1,15 @@
+/* tamanho padrão para tables */
+
+@media only screen and (max-width:1080px) {
+    .header-black {
+        display: none;
+    }
+}
+
+/* tamanho padrão para tables */
+
+@media only screen and (max-width:480px) {
+    .header-black {
+        display: none;
+    }
+}
