@@ -9,12 +9,19 @@
 /* tamanho padrão para smartphone */
 
 @media only screen and (max-width:767px) {
+    /* HEADER */
     .header-black ul, #menu {
         display: none;
     }
+
+
+    /* LOGOTIPO */
     #logotipo {
         left: 32%;
     }
+
+
+    /* SEARCH BAR */
     #btn-bars, #btn-search {
         display: block;
         color: white;
@@ -30,6 +37,9 @@
     #btn-search {
         right: 4px;
     }
+
+
+    /* BANNER */
     #banner {
         height: 317px;
         background-size: cover;
@@ -44,6 +54,9 @@
     #banner h1 small{
         font-size: 22px;
     }
+
+
+    /* NEWS */
     #news h2{
         font-size: 32px;
     }
@@ -73,6 +86,9 @@
     #btn-news-next {
         right: 15px;
     }
+
+
+    /* ESTATÍSTICAS */
     #estatisticas {
         height: inherit;
     }
@@ -80,6 +96,9 @@
         margin-top: 40px;
         margin-bottom: 40px;
     }
+
+
+    /* CALL TO ACTION */
     #call-to-action {
         margin-top: 69px;
     }
@@ -106,6 +125,9 @@
     #call-to-action .btn-amarelo {
         float: right;
     }
+
+
+    /* FOOTER */
     footer {
         margin-top: 60px;
         position: relative;
@@ -129,5 +151,39 @@
     }
     footer .row {
         margin: 0;
+    }
+    footer .list-socials {
+        margin: 0px 0px 0px;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 15px;
+    }
+    footer .list-socials a {
+        width: 48px;
+        height: 48px;
+        border-radius: 24px;
+    }
+    footer .list-socials i {
+        font-size: 32px;
+        margin-top: 9px;
+    }
+    footer .list-socials {
+        /* margin: 0px 0px 0px 0px; */
+        /* position: absolute; */
+        width: 100%;
+        /* left: 0; */
+        /* bottom: 15px; */
+        top: 56px;
+    }
+    footer .list-socials li {
+        display: inline-block;
+        margin: 0px 8px 0px 0px;
+    }
+    footer .col-get-in-touch {
+        margin-top: 75px;
+    }
+    footer .col-md-10 {
+        padding: 0;
     }
 }
