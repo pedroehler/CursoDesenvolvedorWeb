@@ -7,3 +7,5 @@ Aprenda desenvolvimento web, crie um site do zero do básico ao avançado, apren
 https://www.udemy.com/course/curso-html5-css3-javascript/
 
 # Movido para htdcos em 14/07/2022
+
+# Concluído em 23/07/2022
